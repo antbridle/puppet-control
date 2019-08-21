@@ -29,8 +29,8 @@ mod 'ntp',
 
 mod 'role',
   :git => 'git@github.com:antbridle/puppet-role.git',
-  :ref => 'master'
+  :ref => 'development'
 
 mod 'profile',
   :git => 'git@github.com:antbridle/puppet-profile.git',
-  :ref => 'master'
+  :ref => 'development'
