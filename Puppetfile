@@ -23,12 +23,12 @@ mod 'ssh',
 
 mod 'ntp',
   :git => 'git@github.com:antbridle/puppet-ntp.git',
-  :ref => 'master
+  :ref => 'master'
 
 mod 'role',
   :git => 'git@github.com:antbridle/puppet-role.git',
-  :ref => 'master
+  :ref => 'master'
 
 mod 'profile',
   :git => 'git@github.com:antbridle/puppet-profile.git',
-  :ref => 'master
+  :ref => 'master'
