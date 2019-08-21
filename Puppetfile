@@ -18,18 +18,17 @@ mod 'puppetlabs/java',    '1.6.0'
 #  branch: 'docs_experiment'
 
 mod 'ssh',
-  git: 'git@github.com:antbridle/puppet-ssh.git',
-  ref: 'master',
+  :git => 'git@github.com:antbridle/puppet-ssh.git',
+  :ref => 'master'
 
 mod 'ntp',
-  git: 'git@github.com:antbridle/puppet-ntp.git',
-  ref: 'master',
+  :git => 'git@github.com:antbridle/puppet-ntp.git',
+  :ref => 'master
 
 mod 'role',
-  git: 'git@github.com:antbridle/puppet-role.git' ,
-  ref: 'master',
+  :git => 'git@github.com:antbridle/puppet-role.git',
+  :ref => 'master
 
 mod 'profile',
-  git: 'git@github.com:antbridle/puppet-profile.git',
-  ref: 'master',
-
+  :git => 'git@github.com:antbridle/puppet-profile.git',
+  :ref => 'master
