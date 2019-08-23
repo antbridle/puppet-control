@@ -32,3 +32,7 @@ mod 'role',
 mod 'profile',
   :git => 'git@github.com:antbridle/puppet-profile.git',
   :ref => 'master'
+
+mod 'nginx',
+  :git => 'git@github.com:antbridle/puppet-nginx.git',
+  :ref => 'master'
