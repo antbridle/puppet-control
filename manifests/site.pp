@@ -34,9 +34,9 @@ node 'antonybridle3c.mylabserver', {
   notify { 'This matches the node name!!!': }
 }
 
-node /^antonybridle3/ {
-  notify { "This is a node definition using regex!!!!": }
-}
+#node /^antonybridle3/ {
+#  notify { "This is a node definition using regex!!!!": }
+#}
 
 node default {
   class { 'java': }
