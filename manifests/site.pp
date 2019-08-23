@@ -30,8 +30,7 @@ node 'antonybridle1c.mylabserver.com' {
   include pe_repo::platform::ubuntu_1204_amd64
 }
 
-node 'antonybridle3c.mylabserver', {
-  notify { 'This matches the node name!!!': }
+node 'antonybridle3c', {
 }
 
 #node /^antonybridle3/ {
