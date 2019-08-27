@@ -30,19 +30,6 @@ node 'antonybridle1c.mylabserver.com' {
   include pe_repo::platform::ubuntu_1204_amd64
 }
 
-node 'antonybridle2c.mylabserver.com' {
-  notify { 'test-message-for-antonybridle2c':
-    message => 'This is antonybridle2c using a node def',
-  }
-}
-
-node 'antonybridle3c' {
-}
-
-#node /^antonybridle3/ {
-#  notify { "This is a node definition using regex!!!!": }
-#}
-
 node default {
   hiera_include('classes')
   class { 'java': }
