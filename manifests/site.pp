@@ -44,5 +44,6 @@ node 'antonybridle3c' {
 #}
 
 node default {
+  hiera_include('classes')
   class { 'java': }
 }
